@@ -15,7 +15,7 @@
 
 ## About the project
 
-We present CARLAHaze, a synthetic dataset designed for outdoor image dehazing. CARLAHaze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. CARLAHaze also offers predefined splits for training, validation, and testing to facilitate its use. 
+We present CARLA-Haze, a synthetic dataset designed for outdoor image dehazing. CARLA-Haze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. CARLA-Haze also offers predefined splits for training, validation, and testing to facilitate its use. 
 
 ## Dataset download
 
@@ -31,7 +31,7 @@ SkyScenes has been accepted at [ECCV 2024](https://www.ecva.net/papers/eccv_2024
 
 ## Training and test on all haze leves
 
-In order to train and/or evaluate your models using all haze levels together (or a specific combination), we provide a straight forward script where you can specify the paths of the different levels or scenes of interest and generate the combined train, val, and test splits. See [combine.py](https://github.com/Leo-Thomas/CARLAHaze/blob/main/combine.py)
+In order to train and/or evaluate your models using all haze levels together (or a specific combination), we provide a straight forward script where you can specify the paths of the different levels or scenes of interest and generate the combined train, val, and test splits. See [combine.py](https://github.com/Leo-Thomas/CARLA-Haze/blob/main/combine.py)
 
 ## License
 
