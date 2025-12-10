@@ -19,7 +19,7 @@ We present CARLA-Haze, a synthetic dataset designed for outdoor image dehazing. 
 
 ## Dataset download
 
-The dataset is available for download via IEEE DataPort [here](#). _(to be released after publication)_
+The dataset is available for download [here](#). _(to be released after publication)_
 
 <!-- ## 📣 Announcements
 
