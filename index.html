@@ -10,7 +10,7 @@
       <meta name="description" content="CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing"">
       <meta property="og:title" content="CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing"/>
       <meta property="og:description" content="CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing"/>
-      <meta property="og:url" content="https://github.com/Leo-Thomas/CARLAHaze/"/>
+      <meta property="og:url" content="https://github.com/Leo-Thomas/CARLA-Haze/"/>
     
     
       <meta name="twitter:title" content="CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing">
@@ -110,7 +110,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/Leo-Thomas/CARLAHaze/"
+                <a href="https://github.com/Leo-Thomas/CARLA-Haze/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -139,7 +139,7 @@
 
 <section class="hero teaser">
   <h2 class="title is-3" style="color:red; text-align:center;">
-    <b>CARLAHaze is under review 
+    <b>CARLA-Haze is under review 
       <!-- <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10113_ECCV_2024_paper.php" target="_blank" style="color:inherit; text-decoration:none; position:relative;">
         <u>ECCV 2024</u>
         <span style="position:absolute; width:100%; height:2px; bottom:0; left:0; background-color:red; visibility:hidden; transform:scaleX(0); transition:all 0.3s ease-in-out;"></span>
@@ -153,7 +153,7 @@
         <img width="1000" src="static/images/teaser.png">
       </div> 
       <h2 class="subtitle has-text-justified">
-        CARLAHaze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. It also offers predefined splits for training, validation, and testing to facilitate its use.    
+        CARLA-Haze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. It also offers predefined splits for training, validation, and testing to facilitate its use.    
       </h2>
     </div>
   </div>
@@ -180,15 +180,15 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This project presents CARLAHaze, a synthetic dataset designed for outdoor image dehazing. CARLAHaze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640×480 and 512×512 pixels are provided, each containing 40,000 images. CARLAHaze also offers predefined splits for training, validation, and testing to facilitate its use.
+            This project presents CARLA-Haze, a synthetic dataset designed for outdoor image dehazing. CARLA-Haze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640×480 and 512×512 pixels are provided, each containing 40,000 images. CARLA-Haze also offers predefined splits for training, validation, and testing to facilitate its use.
           </p>
           <p>
             The contributions of this work can be summarized as follows: 
             <ol type="1">
-              <li>We introduce CARLAHaze, a synthetic dataset for image dehazing, consisting of 10,000 high-resolution hazy and haze-free image pairs.</li>
-              <li>We establish a benchmark by evaluating SOTA dehazing models on CARLAHaze.</li>
-              <li>We show that CARLAHaze is effective for data augmentation, enhancing the performance of models when combined with real-world training data.</li>
-              <li>We demonstrate that dehazing with CARLAHaze-trained models leads to notable improvements in downstream object detection on real-world hazy images.</li>
+              <li>We introduce CARLA-Haze, a synthetic dataset for image dehazing, consisting of 10,000 high-resolution hazy and haze-free image pairs.</li>
+              <li>We establish a benchmark by evaluating SOTA dehazing models on CARLA-Haze.</li>
+              <li>We show that CARLA-Haze is effective for data augmentation, enhancing the performance of models when combined with real-world training data.</li>
+              <li>We demonstrate that dehazing with CARLA-Haze-trained models leads to notable improvements in downstream object detection on real-world hazy images.</li>
           </ol>
           </p>
         </div>
@@ -196,13 +196,13 @@
     </div>
     
     <div class="hero-body">
-      <h2 class="title is-3 has-text-centered">Main features of CARLAHaze</h2>
+      <h2 class="title is-3 has-text-centered">Main features of CARLA-Haze</h2>
 
       <!-- Haze intensity levels -->
       <h5 class="title is-5 has-text-centered" style="color: #3b3b3b;">10 haze intensity levels</h5>
       <div class="content has-text-justified">
         <p>
-          CARLAHaze contains 10 haze intensity levels. These range progressively from 10% (light haze) up to 100% (dense haze), providing a comprehensive set of scenarios that simulate varying visibility conditions. 
+          CARLA-Haze contains 10 haze intensity levels. These range progressively from 10% (light haze) up to 100% (dense haze), providing a comprehensive set of scenarios that simulate varying visibility conditions. 
         </p>
       </div>
       <div class="carousel carousel1">
@@ -240,7 +240,7 @@
       <h5 class="title is-5 has-text-centered" style="color: #3b3b3b;">Distance-based haze distribution</h5>
       <div class="content has-text-justified">
         <p>
-          CARLAHaze incorporates distance-based atmospheric scattering according to CARLA's physically-consistent haze model. In this model, distant objects are more affected by haze, appearing more occluded due to increased scattering, while closer objects maintain higher visual clarity.
+          CARLA-Haze incorporates distance-based atmospheric scattering according to CARLA's physically-consistent haze model. In this model, distant objects are more affected by haze, appearing more occluded due to increased scattering, while closer objects maintain higher visual clarity.
         </p>
       </div>
       <div class="carousel carousel2">
@@ -274,7 +274,7 @@
       <h5 class="title is-5 has-text-centered" style="color: #3b3b3b;">Diverse scene elements</h5>
       <div class="content has-text-justified">
         <p>
-          CARLAHaze contains a diverse set of visual elements, including buildings, vehicles, vegetation, street infrastructure, and recreational objects, providing high visual variability.
+          CARLA-Haze contains a diverse set of visual elements, including buildings, vehicles, vegetation, street infrastructure, and recreational objects, providing high visual variability.
         </p>
       </div>
       <div class="carousel carousel3">
@@ -308,7 +308,7 @@
       <h5 class="title is-5 has-text-centered" style="color: #3b3b3b;">Visual perspective variability</h5>
       <div class="content has-text-justified">
         <p>
-          CARLAHaze contains images captured at different viewpoints and distances within the same scenario, resulting in variations of visual perspective. Consequently, scene elements exhibit positional and scale changes, enhancing the dataset's visual richness.
+          CARLA-Haze contains images captured at different viewpoints and distances within the same scenario, resulting in variations of visual perspective. Consequently, scene elements exhibit positional and scale changes, enhancing the dataset's visual richness.
         </p>
       </div>
       <div class="carousel carousel4">
@@ -348,7 +348,7 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{2025carlahaze,
+    <pre><code>@misc{2025CARLA-Haze,
       title={CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing}, 
       author={Leo Thomas Ramos and Henry Velesaca and Angel D. Sappa},
       year={2025}
