@@ -13,21 +13,18 @@
 
 <img src="./assets/teaser.png" width="100%"/>
 
+## Announcements
+
+- CARLA-Haze has been accepted at the 5th IEEE/CVF Workshop on Image/Video/Audio Quality Assessment in Computer Vision, VLM and Diffusion Model (WVAQ) @ WACV 2026 📣📣📣
+- CARLA-Haze is under review
+
 ## About the project
 
 We present CARLA-Haze, a synthetic dataset designed for outdoor image dehazing. CARLA-Haze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. CARLA-Haze also offers predefined splits for training, validation, and testing to facilitate its use. 
 
 ## Dataset download
 
-The dataset is available for download [here](#). _(to be released after publication)_
-
-<!-- ## 📣 Announcements
-
-SkyScenes has been accepted at [ECCV 2024](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10113_ECCV_2024_paper.php) ! -->
-
-## Data set description
-
-
+The dataset is available for download via Kaggle [here](https://www.kaggle.com/datasets/angeldsappa/carla-haze).
 
 ## Training and test on all haze leves
 
