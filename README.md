@@ -39,6 +39,12 @@ Distributed under MIT license. See `LICENSE` for more information.
 If you find this dataset useful, please star ⭐️⭐️⭐️ our repo and cite our paper.
 
 ```
-soon
+@InProceedings{carla_haze_2026_WACV,
+    author    = {Velesaca, Henry O. and Ramos, Leo Thomas and Sappa, Angel D.},
+    title     = {CARLA-Haze: A Synthetic Benchmark for Outdoor Image Dehazing},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    year      = {2026},
+    pages     = {1-10}
+}
 ```
 
