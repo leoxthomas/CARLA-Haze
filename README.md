@@ -22,6 +22,11 @@
 
 We present CARLA-Haze, a synthetic dataset designed for outdoor image dehazing. CARLA-Haze contains 10,000 high-resolution paired images (clean and hazy), distributed across 10 different scenarios and 10 incremental haze intensity levels. The dataset includes diverse scenarios and visual elements, distance-based haze distribution consistent with realistic atmospheric conditions, and multiple viewpoints enhancing visual variability. Additionally, two preprocessed versions with standardized resolutions of 640x480 and 512x512 pixels are provided, each containing 40,000 images. CARLA-Haze also offers predefined splits for training, validation, and testing to facilitate its use. 
 
+### Paper
+
+CARLA-Haze paper is available at WACV proceedings [here](https://openaccess.thecvf.com/content/WACV2026W/WVAQ/html/Velesaca_CARLA-Haze_A_Synthetic_Benchmark_for_Outdoor_Image_Dehazing_WACVW_2026_paper.html)
+
+
 ## Dataset download
 
 The dataset is available for download via Kaggle [here](https://www.kaggle.com/datasets/angeldsappa/carla-haze).
